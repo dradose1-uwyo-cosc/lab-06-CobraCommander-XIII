@@ -100,7 +100,7 @@ print("*"*75)
 most_occurred = "a"
 least_occurred = "a"
 
-for letter in letters.keys():
+for letter in sorted(letters.keys()):
     if letters[letter] > letters[most_occurred]:
         most_occurred = letter
     if letters[letter] < letters[least_occurred]:
@@ -114,5 +114,5 @@ print("*"*75)
 
 # Output what the percentage of the string each character is, again in alphabetical
 
-for letter, occurrence in letters.items():
+for letter, occurrence in sorted(letters.items()):
     print(f"{letter}: {occurrence / len(random_string) * 100}%")
