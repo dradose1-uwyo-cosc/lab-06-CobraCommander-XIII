@@ -1,12 +1,7 @@
-# [Name]
-## [Assignment #]
-## [Submission date: MM/DD/YY]
+# Reuben McGuire
+## Lab 06
+## 10/16/24
 ## Worked with/sources 
-* example
-* example
-* example
-* example
+* 
 ## Project Quirks/ Things that don't work
-* example
-* example
-* example
+* 
