@@ -4,7 +4,7 @@
 # Lab 06
 # Lab Section: 15
 # Sources, people worked with, help given to: 
-# 
+# Assisted Brady Mogen
 
 
 random_string = """
