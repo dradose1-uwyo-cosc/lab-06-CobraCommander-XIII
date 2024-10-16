@@ -1,12 +1,10 @@
-# Your Name Here
+# Reuben McGuire
 # UWYO COSC 1010
-# Submission Date
+# 10/16/2024
 # Lab 06
-# Lab Section: 
+# Lab Section: 15
 # Sources, people worked with, help given to: 
-# your
-# comments
-# here
+# 
 
 
 random_string = """
@@ -81,8 +79,14 @@ print(len(random_string)) # Print out the size for reference
 
 
 #Load all the elements into a dictionary
-#Will need to first declare a dictionary 
+#Will need to first declare a dictionary
 
+letters = {}
+for letter in random_string:
+    if letter in letters.keys():
+        letters[letter] += 1
+    elif letter not in letters.keys():
+        letters[letter] = 1
 # Output: each letter and its corresponding occurrence in alphabetical order
 
 print("*"*75)
